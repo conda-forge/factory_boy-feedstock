@@ -1,0 +1,15 @@
+diff --git a/setup.cfg b/setup.cfg
+index a90e807..ae93711 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -5,8 +5,8 @@ universal = 1
+ ; semver-style versions
+ version-levels = 3
+ 
+-; tags: vX.Y.Z
+-tag-format = v%(version)s
++; tags: vX.Y.Z; the double-percent is a guard against ConfigParser.
++#tag-format = v%%(version)s
+ 
+ ; Version flag location (we use __version__)
+ python-file-with-version = factory/__init__.py
