@@ -1,7 +1,7 @@
 {% set name = "factory_boy" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "2ce2f665045d9f15145a6310565fcb8255d52fc6fd867f3b783b3ac3de6cf10e" %}
+{% set hash = "ded73e49135c24bd4d3f45bf1eb168f8d290090f5cf4566b8df3698317dc9c08" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
