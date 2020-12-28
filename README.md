@@ -5,11 +5,13 @@ Home: https://github.com/FactoryBoy/factory_boy
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/factory_boy-feedstock/blob/master/LICENSE.txt)
 
 Summary: A versatile test fixtures replacement based on thoughtbot's factory_girl for Ruby.
 
+Development: https://github.com/FactoryBoy/factory_boy
 
+Documentation: https://factoryboy.readthedocs.io/en/latest/
 
 Current build status
 ====================
