@@ -1,7 +1,7 @@
 {% set name = "factory_boy" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "ded73e49135c24bd4d3f45bf1eb168f8d290090f5cf4566b8df3698317dc9c08" %}
+{% set hash = "401cc00ff339a022f84d64a4339503d1689e8263a4478d876e58a3295b155c5b" %}
 
 package:
   name: {{ name|lower }}
@@ -18,13 +18,13 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.6
     - pip
     - setuptools >=0.8.0
 
   run:
-    - python
+    - python >=3.6
     - faker >=0.7.0
 
 test:
