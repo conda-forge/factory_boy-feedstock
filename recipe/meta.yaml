@@ -1,7 +1,7 @@
 {% set name = "factory_boy" %}
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "bc76d97d1a65bbd9842a6d722882098eb549ec8ee1081f9fb2e8ff29f0c300f1" %}
+{% set hash = "8317aa5289cdfc45f9cae570feb07a6177316c82e34d14df3c2e1f22f26abef0" %}
 
 package:
   name: {{ name|lower }}
